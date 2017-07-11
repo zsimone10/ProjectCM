@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		293B513EC52A3FB5F3EEA4E7 /* Pods_CampusMeme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DEBBC963B4104A457B29C6 /* Pods_CampusMeme.framework */; };
 		450CEF821F1302720066D186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450CEF811F1302720066D186 /* AppDelegate.swift */; };
 		450CEF841F1302720066D186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450CEF831F1302720066D186 /* ViewController.swift */; };
 		450CEF871F1302720066D186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450CEF851F1302720066D186 /* Main.storyboard */; };
@@ -14,6 +15,13 @@
 		450CEF8C1F1302720066D186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450CEF8A1F1302720066D186 /* LaunchScreen.storyboard */; };
 		450CEF971F1302730066D186 /* CampusMemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450CEF961F1302730066D186 /* CampusMemeTests.swift */; };
 		450CEFA21F1302730066D186 /* CampusMemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450CEFA11F1302730066D186 /* CampusMemeUITests.swift */; };
+		450CEFB01F1302A00066D186 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 450CEFAF1F1302A00066D186 /* GoogleService-Info.plist */; };
+		455E70B51F146F6700A8919B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E70B41F146F6700A8919B /* HomeViewController.swift */; };
+		45B88CC01F1448D60008367C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B88CBF1F1448D60008367C /* SignUpViewController.swift */; };
+		45B88CC21F1448EA0008367C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B88CC11F1448EA0008367C /* LoginViewController.swift */; };
+		45B88CC61F145A100008367C /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B88CC51F145A100008367C /* ResetPasswordViewController.swift */; };
+		E04B48004D685222EA7F13A6 /* Pods_CampusMemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E048329E0757B4161F9708E /* Pods_CampusMemeTests.framework */; };
+		EFA8AB97169E764EDF757E81 /* Pods_CampusMemeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E21B2836EBBAB2C9753706 /* Pods_CampusMemeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E048329E0757B4161F9708E /* Pods_CampusMemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusMemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2298007797D4004131579F54 /* Pods-CampusMemeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusMemeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampusMemeUITests/Pods-CampusMemeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		315AABFE2CA1AC2EDF807AB6 /* Pods-CampusMeme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusMeme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampusMeme/Pods-CampusMeme.debug.xcconfig"; sourceTree = "<group>"; };
 		450CEF7E1F1302720066D186 /* CampusMeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusMeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450CEF811F1302720066D186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		450CEF831F1302720066D186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,17 @@
 		450CEF9D1F1302730066D186 /* CampusMemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusMemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		450CEFA11F1302730066D186 /* CampusMemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusMemeUITests.swift; sourceTree = "<group>"; };
 		450CEFA31F1302730066D186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450CEFAF1F1302A00066D186 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		455E70B41F146F6700A8919B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		45B88CBF1F1448D60008367C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		45B88CC11F1448EA0008367C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45B88CC51F145A100008367C /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		55A2361776598454CB562A45 /* Pods-CampusMeme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusMeme.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampusMeme/Pods-CampusMeme.release.xcconfig"; sourceTree = "<group>"; };
+		A4732C4CC9BB31675E7E1FD2 /* Pods-CampusMemeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusMemeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampusMemeUITests/Pods-CampusMemeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E21B2836EBBAB2C9753706 /* Pods_CampusMemeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusMemeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE89E5000AE090F059D27732 /* Pods-CampusMemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusMemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampusMemeTests/Pods-CampusMemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C26D85AFDE0A9868C62C26FC /* Pods-CampusMemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusMemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampusMemeTests/Pods-CampusMemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7DEBBC963B4104A457B29C6 /* Pods_CampusMeme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusMeme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293B513EC52A3FB5F3EEA4E7 /* Pods_CampusMeme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04B48004D685222EA7F13A6 /* Pods_CampusMemeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA8AB97169E764EDF757E81 /* Pods_CampusMemeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 				450CEF951F1302730066D186 /* CampusMemeTests */,
 				450CEFA01F1302730066D186 /* CampusMemeUITests */,
 				450CEF7F1F1302720066D186 /* Products */,
+				4A02D038B15A8AF54F62DAB7 /* Pods */,
+				500E9535918A0A7FED6B2638 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +126,14 @@
 			children = (
 				450CEF811F1302720066D186 /* AppDelegate.swift */,
 				450CEF831F1302720066D186 /* ViewController.swift */,
+				45B88CBF1F1448D60008367C /* SignUpViewController.swift */,
+				45B88CC11F1448EA0008367C /* LoginViewController.swift */,
+				455E70B41F146F6700A8919B /* HomeViewController.swift */,
+				45B88CC51F145A100008367C /* ResetPasswordViewController.swift */,
 				450CEF851F1302720066D186 /* Main.storyboard */,
 				450CEF881F1302720066D186 /* Assets.xcassets */,
 				450CEF8A1F1302720066D186 /* LaunchScreen.storyboard */,
+				450CEFAF1F1302A00066D186 /* GoogleService-Info.plist */,
 				450CEF8D1F1302720066D186 /* Info.plist */,
 			);
 			path = CampusMeme;
@@ -125,6 +157,29 @@
 			path = CampusMemeUITests;
 			sourceTree = "<group>";
 		};
+		4A02D038B15A8AF54F62DAB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				315AABFE2CA1AC2EDF807AB6 /* Pods-CampusMeme.debug.xcconfig */,
+				55A2361776598454CB562A45 /* Pods-CampusMeme.release.xcconfig */,
+				BE89E5000AE090F059D27732 /* Pods-CampusMemeTests.debug.xcconfig */,
+				C26D85AFDE0A9868C62C26FC /* Pods-CampusMemeTests.release.xcconfig */,
+				A4732C4CC9BB31675E7E1FD2 /* Pods-CampusMemeUITests.debug.xcconfig */,
+				2298007797D4004131579F54 /* Pods-CampusMemeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		500E9535918A0A7FED6B2638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7DEBBC963B4104A457B29C6 /* Pods_CampusMeme.framework */,
+				1E048329E0757B4161F9708E /* Pods_CampusMemeTests.framework */,
+				B0E21B2836EBBAB2C9753706 /* Pods_CampusMemeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450CEFA61F1302730066D186 /* Build configuration list for PBXNativeTarget "CampusMeme" */;
 			buildPhases = (
+				6C62E32CBC4F1EA9EAC1B2A4 /* [CP] Check Pods Manifest.lock */,
 				450CEF7A1F1302720066D186 /* Sources */,
 				450CEF7B1F1302720066D186 /* Frameworks */,
 				450CEF7C1F1302720066D186 /* Resources */,
+				77D8A817FB1047187196184E /* [CP] Embed Pods Frameworks */,
+				F65A9B35DED04C77B2A16AA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450CEFA91F1302730066D186 /* Build configuration list for PBXNativeTarget "CampusMemeTests" */;
 			buildPhases = (
+				51C5FCBBA9AD964F294C7194 /* [CP] Check Pods Manifest.lock */,
 				450CEF8E1F1302730066D186 /* Sources */,
 				450CEF8F1F1302730066D186 /* Frameworks */,
 				450CEF901F1302730066D186 /* Resources */,
+				1CF5466D6666360F1142B9F1 /* [CP] Embed Pods Frameworks */,
+				BD9A510802EE8C997CCEC645 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450CEFAC1F1302730066D186 /* Build configuration list for PBXNativeTarget "CampusMemeUITests" */;
 			buildPhases = (
+				4E5A9615D0BBD0310847BA47 /* [CP] Check Pods Manifest.lock */,
 				450CEF991F1302730066D186 /* Sources */,
 				450CEF9A1F1302730066D186 /* Frameworks */,
 				450CEF9B1F1302730066D186 /* Resources */,
+				71ADF4CC530B928572E99ACA /* [CP] Embed Pods Frameworks */,
+				55DE59150B91A6B8F24F689E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +301,7 @@
 			files = (
 				450CEF8C1F1302720066D186 /* LaunchScreen.storyboard in Resources */,
 				450CEF891F1302720066D186 /* Assets.xcassets in Resources */,
+				450CEFB01F1302A00066D186 /* GoogleService-Info.plist in Resources */,
 				450CEF871F1302720066D186 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +322,180 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CF5466D6666360F1142B9F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusMemeTests/Pods-CampusMemeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5A9615D0BBD0310847BA47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusMemeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C5FCBBA9AD964F294C7194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusMemeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55DE59150B91A6B8F24F689E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusMemeUITests/Pods-CampusMemeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C62E32CBC4F1EA9EAC1B2A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusMeme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71ADF4CC530B928572E99ACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusMemeUITests/Pods-CampusMemeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D8A817FB1047187196184E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CampusMeme/Pods-CampusMeme-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusMeme/Pods-CampusMeme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9A510802EE8C997CCEC645 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusMemeTests/Pods-CampusMemeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F65A9B35DED04C77B2A16AA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CampusMeme/Pods-CampusMeme-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusMeme/Pods-CampusMeme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		450CEF7A1F1302720066D186 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B88CC21F1448EA0008367C /* LoginViewController.swift in Sources */,
+				45B88CC01F1448D60008367C /* SignUpViewController.swift in Sources */,
+				45B88CC61F145A100008367C /* ResetPasswordViewController.swift in Sources */,
 				450CEF841F1302720066D186 /* ViewController.swift in Sources */,
 				450CEF821F1302720066D186 /* AppDelegate.swift in Sources */,
+				455E70B51F146F6700A8919B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +643,12 @@
 		};
 		450CEFA71F1302730066D186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315AABFE2CA1AC2EDF807AB6 /* Pods-CampusMeme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MB37488K2Q;
 				INFOPLIST_FILE = CampusMeme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zs.CampusMeme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,10 +658,12 @@
 		};
 		450CEFA81F1302730066D186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A2361776598454CB562A45 /* Pods-CampusMeme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MB37488K2Q;
 				INFOPLIST_FILE = CampusMeme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zs.CampusMeme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +673,7 @@
 		};
 		450CEFAA1F1302730066D186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE89E5000AE090F059D27732 /* Pods-CampusMemeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +689,7 @@
 		};
 		450CEFAB1F1302730066D186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26D85AFDE0A9868C62C26FC /* Pods-CampusMemeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +705,7 @@
 		};
 		450CEFAD1F1302730066D186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4732C4CC9BB31675E7E1FD2 /* Pods-CampusMemeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = MB37488K2Q;
@@ -481,6 +720,7 @@
 		};
 		450CEFAE1F1302730066D186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2298007797D4004131579F54 /* Pods-CampusMemeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = MB37488K2Q;
@@ -512,6 +752,7 @@
 				450CEFA81F1302730066D186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		450CEFA91F1302730066D186 /* Build configuration list for PBXNativeTarget "CampusMemeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +761,7 @@
 				450CEFAB1F1302730066D186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		450CEFAC1F1302730066D186 /* Build configuration list for PBXNativeTarget "CampusMemeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +770,7 @@
 				450CEFAE1F1302730066D186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
