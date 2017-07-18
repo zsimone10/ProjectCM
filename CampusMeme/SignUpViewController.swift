@@ -6,15 +6,17 @@
 //  Copyright © 2017 zs. All rights reserved.
 //
 
+import Foundation
 import UIKit
 import Firebase
 import FirebaseAuth
 
 class SignUpViewController: UIViewController {
-
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBOutlet weak var signUpButton: UIButton!
     
     @IBAction func SignUp(_ sender: Any) {
         if emailTextField.text == "" {
@@ -31,6 +33,8 @@ class SignUpViewController: UIViewController {
                 if error == nil {
                     print("You have successfully signed up")
                     //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
+                    //enable automatic login for future usage
+                    UserDefaults.standard.set(user?.uid, forKey: "uid")
                     
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
                     self.present(vc!, animated: true, completion: nil)
@@ -52,6 +56,18 @@ class SignUpViewController: UIViewController {
         //broken tap to remove keyboard
         //let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         //view.addGestureRecognizer(tap)
+        
+        //Allows for users to login automatically if they have been before
+       if UserDefaults.standard.object(forKey: "uid") != nil {
+            DispatchQueue.main.async() {
+                [unowned self] in
+                //auto login segue
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
+                self.present(vc!, animated: true, completion: nil)
+            }
+        }
+        signUpButton.layer.cornerRadius = 15
+        
     }
 
     override func didReceiveMemoryWarning() {

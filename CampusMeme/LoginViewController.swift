@@ -5,7 +5,7 @@
 //  Created by Zen Simone on 7/10/17.
 //  Copyright © 2017 zs. All rights reserved.
 //
-
+import Foundation
 import UIKit
 import Firebase
 import FirebaseAuth
@@ -36,6 +36,9 @@ class LoginViewController: UIViewController {
                     
                     //Print into the console if successfully logged in
                     print("You have successfully logged in")
+                    
+                    //enable automatic login for future usage
+                    UserDefaults.standard.set(user?.uid, forKey: "uid")
                     
                     //Go to the HomeViewController if the login is sucessful
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
